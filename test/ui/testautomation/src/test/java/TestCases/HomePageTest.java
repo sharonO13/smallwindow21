@@ -51,6 +51,8 @@ public class HomePageTest {
 
         String pageTitle = homepage.navBarElement().getText().toString();
 
+        logger.info("Testing page Title is 'Smallwindow21'");
+
         //verify the title of the page
         assertEquals("Smallwindow21", pageTitle);
     }
