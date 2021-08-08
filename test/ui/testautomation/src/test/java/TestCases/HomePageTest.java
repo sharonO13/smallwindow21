@@ -54,7 +54,7 @@ public class HomePageTest {
         logger.info("Testing page Title is 'Smallwindow21'");
 
         //verify the title of the page
-        assertEquals("Smallwindow21", pageTitle);
+        assertEquals("The Page Title is not equal to Smallwindow21", "Smallwindow21", pageTitle);
     }
 
     @After
